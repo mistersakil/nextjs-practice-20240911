@@ -1,34 +1,34 @@
 {
   "pages": {
-    "/(pages)/about/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(pages)/about/page.js"
-    ],
     "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/layout.js"
     ],
-    "/(pages)/contact/page": [
+    "/(pages)/dashboard/@left/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(pages)/contact/page.js"
+      "static/chunks/app/(pages)/dashboard/@left/page.js"
     ],
-    "/(pages)/page": [
+    "/(pages)/dashboard/@right/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(pages)/page.js"
+      "static/chunks/app/(pages)/dashboard/@right/page.js"
     ],
-    "/(pages)/posts/page": [
+    "/(pages)/dashboard/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(pages)/posts/page.js"
+      "static/chunks/app/(pages)/dashboard/page.js"
     ],
-    "/(pages)/posts/[id]/page": [
+    "/(pages)/dashboard/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(pages)/posts/[id]/page.js"
+      "static/chunks/app/(pages)/dashboard/layout.js"
+    ],
+    "/_not-found/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/_not-found/page.js"
     ]
   }
 }

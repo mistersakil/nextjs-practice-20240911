@@ -1,7 +1,4 @@
 {
-  "/(pages)/about/page": "app/(pages)/about/page.js",
-  "/(pages)/contact/page": "app/(pages)/contact/page.js",
-  "/(pages)/page": "app/(pages)/page.js",
-  "/(pages)/posts/page": "app/(pages)/posts/page.js",
-  "/(pages)/posts/[id]/page": "app/(pages)/posts/[id]/page.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/(pages)/dashboard/page": "app/(pages)/dashboard/page.js"
 }

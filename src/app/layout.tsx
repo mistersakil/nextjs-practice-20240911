@@ -6,7 +6,9 @@ export default function RootLayout({ children }) {
       <body>
         <nav>
           <Link href="/">home</Link> &nbsp;
-          <Link href="/posts">posts</Link>
+          <Link href="/posts">posts</Link> &nbsp;
+          <Link href="/about">about</Link> &nbsp;
+          <Link href="/dashboard">dashboard</Link>
         </nav>
         <hr />
         {children}

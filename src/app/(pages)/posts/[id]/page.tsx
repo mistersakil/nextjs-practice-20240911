@@ -4,9 +4,6 @@ export default (props) => {
   let {
     params: { id },
   } = props;
-
-  console.log(id);
-
   return (
     <>
       <h1>Post details: </h1>
