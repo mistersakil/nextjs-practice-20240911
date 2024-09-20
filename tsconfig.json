@@ -2,8 +2,9 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@/components/*": ["src/components/*"],
-      "@/css/*": ["src/css/*"],
+      // "@/components/*": ["src/components/*"],
+      // "@/css/*": ["src/css/*"],
+      "@/*": ["src/*"],
       "@/images/*": ["public/images/*"]
     },
     "lib": ["dom", "dom.iterable", "esnext"],
