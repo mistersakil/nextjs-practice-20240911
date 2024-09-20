@@ -1,4 +1,9 @@
 {
+  "/admin/page": "app/admin/page.js",
+  "/admin/posts/page": "app/admin/posts/page.js",
   "/(pages)/page": "app/(pages)/page.js",
-  "/api/products/[pid]/route": "app/api/products/[pid]/route.js"
+  "/admin/users/page": "app/admin/users/page.js",
+  "/(pages)/posts/page": "app/(pages)/posts/page.js",
+  "/(pages)/about/page": "app/(pages)/about/page.js",
+  "/(pages)/dashboard/page": "app/(pages)/dashboard/page.js"
 }
