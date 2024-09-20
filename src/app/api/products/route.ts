@@ -5,12 +5,13 @@ export const GET = async (req) => {
   //   const { searchParams } = new Headers(req.headers);
   //   console.log(searchParams);
   // console.log(req.nextUrl.searchParams);
-  const params = await req.nextUrl.searchParams;
-  console.log(params);
+  const params2 = await req.nextUrl.searchParams;
+  console.log(params2);
+  const search = params2.get("search");
   return NextResponse.json({
     code: 200,
     success: true,
-    data: params,
+    data: { search },
   });
 };
 
@@ -21,9 +22,12 @@ export const POST = async (req) => {
   let age = jsonData.get("age");
   console.log(jsonData, name);
 
-  return NextResponse.json({
-    code: 201,
-    success: true,
-    data: { age, name },
-  });
+  return NextResponse.json(
+    {
+      code: 201,
+      success: true,
+      data: { age, name },
+    },
+    { status: 201 }
+  );
 };
