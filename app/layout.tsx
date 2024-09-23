@@ -1,11 +1,8 @@
 import React from "react";
-
-const RootLayout = (children) => {
+export default function RootLayout({ children }) {
   return (
-    <html>
+    <html lang="en">
       <body>{children}</body>
     </html>
   );
-};
-
-export default RootLayout;
+}
